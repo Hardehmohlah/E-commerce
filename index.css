@@ -1,1 +1,67 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  outline: 1px solid red;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-items: center;
+}
+body section {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body nav {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  gap: 250px;
+}
+body nav strong {
+  font-size: 40px;
+}
+body nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+body nav ul li {
+  list-style: none;
+}
+body nav ul li a {
+  text-decoration: none;
+  padding: 20px;
+}
+body .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 50px;
+}
+body .cards figure {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+body .cards figure img {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=index.css.map */
